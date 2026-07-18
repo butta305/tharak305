@@ -37,5 +37,17 @@ Commands:
 
    npx playwright install-deps
    npx playwright pdf https://sdet.live "sdet_live.pdf"
+   npx playwright test Chapter_20_Playwrigjt_install_basics/ttacart_spec.ts  - to run test
+   npx playwright codegen https://app.thetestingacademy.com/playwright/ttacart
+   npx playwright test tests/example.spec.ts   - to run in command prompt
+   npx playwright show-report
+
+   typecript:
+   npm install -g typescript tsnode
+   tsc --version
+   tsc --init           - for creating tsconfig.json file
+   tsc Chapter_26_Typescript/02_typescript.ts --ignoreConfig    -- run ts file and create js file
+   npx ts-node 03_TS.ts     - to run TS file
+
 
 */
