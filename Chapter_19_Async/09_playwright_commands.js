@@ -42,12 +42,33 @@ Commands:
    npx playwright test tests/example.spec.ts   - to run in command prompt
    npx playwright show-report
 
-   typecript:
+   typescript:
    npm install -g typescript tsnode
    tsc --version
    tsc --init           - for creating tsconfig.json file
    tsc Chapter_26_Typescript/02_typescript.ts --ignoreConfig    -- run ts file and create js file
    npx ts-node 03_TS.ts     - to run TS file
+
+   # Run all tests
+npx playwright test
+
+# Run specific file
+npx playwright test tests/login.spec.ts
+
+# Run tests with specific browser
+npx playwright test --project=chromium
+
+# Run in headed mode
+npx playwright test --headed
+
+# Run in debug mode
+npx playwright test --debug
+
+# Run with UI mode
+npx playwright test --ui
+
+# Show report
+npx playwright show-report
 
 
 */
